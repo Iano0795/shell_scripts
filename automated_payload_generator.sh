@@ -6,6 +6,7 @@ echo "-----/  \---|  |     |-------|  |-------| |   | |-------| |\  /|-----| |__
 echo "----/ __ \--|  |__|  |-------|  |-------| |___| |-------| | \/ |-----| |__|------------"
 echo "---/_/   _\--\______/_-------|__|--------\_____/--------| |    |-----| |---------------"
 echo "----------------------------Welcome To Automated Payload Generator---------------------"
+fortune | cowsay -f tux
 
 echo "(^-^) So my beloved hacker which type of payload do you want to generate? format:(android/meterpreter/reverse_tcp)"
 read payload_type 
